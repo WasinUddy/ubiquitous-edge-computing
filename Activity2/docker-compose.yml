@@ -9,7 +9,6 @@ services:
     depends_on:
       - edge-server
       - edge-cloud-server
-    command: ["npm", "run", "dev"]
     networks:
       - appnet
 
